@@ -6339,8 +6339,8 @@ body.offcanvas-open {
 .slider-nav-style-1:hover .swiper-button-prev {
   left: 10px;
 }
-.hero-slide-item {
-  background-image: url(/assets/images/background/img1.jpg);
+.breadcrumb-area {
+  background-image: url(/assets/images/background/img2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
