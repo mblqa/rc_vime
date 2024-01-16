@@ -1485,7 +1485,7 @@ body.offcanvas-open {
   border-bottom: 0;
 }
 .hero-slide-item {
-  background-image: url(/furns/assets/images/background/img1.jpg);
+  background-image: url(assets/images/background/img1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -6339,8 +6339,8 @@ body.offcanvas-open {
 .slider-nav-style-1:hover .swiper-button-prev {
   left: 10px;
 }
-.breadcrumb-area {
-  background-image: url(/furns/assets/images/background/img2.jpg);
+.hero-slide-item {
+  background-image: url(/assets/images/background/img1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
