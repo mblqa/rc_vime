@@ -1485,7 +1485,7 @@ body.offcanvas-open {
   border-bottom: 0;
 }
 .hero-slide-item {
-  background-image: url(assets/images/background/img1.jpg);
+  background-image: url(/assets/images/background/img1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
