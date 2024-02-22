@@ -5156,7 +5156,11 @@ body.offcanvas-open {
 }
 .product-tab-nav {
   margin: 5px 0 10px;
+  padding: 10px;
+  background-color: #eeebeb;
+  border-radius: 10px;
 }
+
 .product-tab-nav .nav-item {
   margin-right: 30px;
   display: inline-block;
@@ -5168,6 +5172,7 @@ body.offcanvas-open {
   font-weight: 600;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  padding: 7px;
 }
 @media only screen and (max-width: 575px) {
   .product-tab-nav .nav-item {
