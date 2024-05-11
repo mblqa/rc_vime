@@ -6451,3 +6451,23 @@ button:focus:not(:focus-visible) {
 .banner-preduct-wrapper {
   background-color: #eeeeee;
 }
+
+..projetos {
+  background-color: blue;
+  height: 400px;
+  width: 100%;
+}
+
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.box {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}

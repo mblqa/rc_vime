@@ -281,39 +281,37 @@
         <div class="col-md-12 text-center mb-100px mt-40px" data-aos="fade-up" data-aos-delay="200">
           <ul class="product-tab-nav nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#todos">Todos
+              <a class="nav-link" onclick="filterElements('Todos')">Todos
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#cadeiras">Balanços
+              <a class="nav-link" onclick="filterElements('Balancos')">Balanços
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#mesas">Chaises</a>
+              <a class="nav-link" onclick="filterElements('Chaises')">Chaises</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#chaises">Conjuntos de Mesas</a>
+              <a class="nav-link" onclick="filterElements('ConjuntosDeMesas')">Conjuntos de Mesas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#poltronas">Conjunto de Sofá</a>
+              <a class="nav-link" onclick="filterElements('ConjuntoDeSofa')">Conjunto de Sofá</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#sofa">Banquetas</a>
+              <a class="nav-link" onclick="filterElements('Banquetas')">Banquetas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#sofa">Cadeiras e poltronas</a>
+              <a class="nav-link" onclick="filterElements('CadeirasEPoltronas')">Cadeiras e poltronas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#sofa">Kit completo</a>
+              <a class="nav-link" onclick="filterElements('KitCompleto')">Kit completo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#sofa">Espreguiçadeiras</a>
+              <a class="nav-link" onclick="filterElements('Espreguicadeiras')">Espreguiçadeiras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="tab" href="#sofa">Mesas de centro e Aparadores</a>
+              <a class="nav-link" onclick="filterElements('MesasdeCentroEAparadores')">Mesas de centro e Aparadores</a>
             </li>
-
-            
           </ul>
         </div>
         <!-- Seletor das Categorias End -->
@@ -324,732 +322,238 @@
       <div class="row">
         <div class="col pb-40px pt-100px">
           <div class="tab-content">
-
-            <!-- TODOS OS ITENS START -->
-
             <div class="tab-pane fade show active" id="todos">
               <div class="row">
 
-                <!-- Cadeira Start -->
+                <!-- Balanços Start -->
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show Balancos">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
                       <a href="#!" class="image">
                         <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg"
-                          alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
                         Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Cadeira 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Cadeira 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/cadeira2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira2/1.jpg"
-                          alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="produtos.html">Cadeira 2</a>
+                        <a href="#!">Balancos</a>
                       </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Cadeira End -->
-
-                <!-- Jogo De Mesas Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/mesa1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/mesa1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Jogo de Mesa 1</a>
-                      </h5>
-                      <!--<span class="price">
-                                                        <span class="new">R$38.50</span>
-                                                      </span> -->
                     </div>
                   </div>
                 </div>
 
-                <!-- Jogo de mesa2 -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/mesa2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/mesa2/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="produtos.html">Jogo de Mesa 2</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
+                <!-- Balanços End -->
 
-                <!-- Jogo De Mesas End -->
 
                 <!-- Chaises Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/chaises1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/chaises1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Chaise 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
 
-                <!-- Chaises 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/chaises2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/chaises2/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="produtos.html">Chaises 2</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Chaises End -->
-
-                <!-- Poltronas Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/poltronas1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/poltronas1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Poltrona 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Poltronas 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/poltronas2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/2.jpg" alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="produtos.html">Poltronas 2</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Poltronas End -->
-
-                <!-- Jogo De Sofá Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Jogo de Sofá</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Jogo De Sofá Start 2-->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa2/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Sofa 2!</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Jogo De Sofá Start 3-->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa3/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa3/1.jpg" alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Sofa 3</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Jogo De Sofá End -->
-
-              </div>
-            </div>
-
-            <!-- TODOS OS ITENS END -->
-
-            <!-- CADEIRAS START -->
-            <div class="tab-pane fade" id="cadeiras">
-              <div class="row">
-
-                <!-- Cadeira Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show Chaises">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
                       <a href="#!" class="image">
                         <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg"
-                          alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
                         Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Cadeira 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Cadeira 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/cadeira2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira2/1.jpg"
-                          alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="produtos.html">Cadeira 2</a>
+                        <a href="#!">Chaises</a>
                       </h5>
                     </div>
                   </div>
-                  <!-- Single Prodect -->
-                </div>
-
-              </div>
-            </div>
-            <!-- CADEIRAS END -->
-
-            <!-- MESAS START -->
-            <div class="tab-pane fade" id="mesas">
-              <div class="row">
-
-                <!-- Jogo De Mesas Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/mesa1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/mesa1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Jogo de Mesa 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Jogo de mesa2 -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/mesa2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/mesa2/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="produtos.html">Jogo de Mesa 2</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
-                </div>
-
-                <!-- Jogo De Mesas End -->
-              </div>
-            </div>
-            <!-- MESAS END -->
-
-            <!-- CHAISES START -->
-            <div class="tab-pane fade" id="chaises">
-              <div class="row">
-
-                <!-- Chaises Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/chaises1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/chaises1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Chaise 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Chaises 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/chaises2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/chaises2/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="produtos.html">Chaises 2</a>
-                      </h5>
-                    </div>
-                  </div>
-                  <!-- Single Prodect -->
                 </div>
 
                 <!-- Chaises End -->
-              </div>
-            </div>
-            <!-- CHAISES END -->
 
-            <!-- Poltronas START -->
-            <div class="tab-pane fade" id="poltronas">
-              <div class="row">
 
-                <!-- Poltronas Start -->
+                <!-- Conjuntos de mesa Start -->
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show ConjuntosDeMesas">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
                       <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/poltronas1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/poltronas1/1.jpg"
-                          alt="Product" />
-                      </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                      </a> 
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
                         Comprar Agora!
-                      </button>
-                    </div>
-                    <div class="content">
-                      <h5 class="title">
-                        <a href="#!">Poltrona 1</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Poltronas 2 Start -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
-                  <!-- Single Prodect -->
-                  <div class="product">
-                    <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/poltronas2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/2.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="produtos.html">Poltronas 2</a>
+                        <a href="#!">Balancos</a>
                       </h5>
                     </div>
                   </div>
-                  <!-- Single Prodect -->
                 </div>
 
-                <!-- Poltronas End -->
-              </div>
-            </div>
-            <!-- Poltronas END -->
+                <!-- Conjuntos de mesa End -->
+                
+                
+                <!-- Conjunto de sofá Start -->
 
-            <!-- Jogo De Sofá Start -->
-            <div class="tab-pane fade" id="sofa">
-              <div class="row">
-
-                <!-- Jogo De Sofá Start -->
-
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show ConjuntoDeSofa">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
                       <a href="#!" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa1/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa1/1.jpg"
-                          alt="Product" />
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
                         Comprar Agora!
-                      </button>
+                      </a>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="#!">Jogo de Sofá</a>
+                        <a href="#!">Chaises</a>
                       </h5>
                     </div>
                   </div>
                 </div>
 
-                <!-- Jogo De Sofá Start 2-->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
+                <!-- BalConjunto de sofá End -->
+
+                <!-- Banquetas Start -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show Banquetas">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa2/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa2/1.jpg"
-                          alt="Product" />
+                      <a href="#!" class="image">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view"
-                          data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
+                        Comprar Agora!
+                      </a>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="#!">Sofa 2!</a>
+                        <a href="#!">Balancos</a>
                       </h5>
                     </div>
                   </div>
-                  <!-- Single Prodect -->
                 </div>
 
-                <!-- Jogo De Sofá Start 3-->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px" data-aos="fade-up" data-aos-delay="400">
+                <!-- Banquetas End -->
+                
+                
+                <!-- Cadeiras e Poltronas Start -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show CadeirasEPoltronas">
                   <!-- Single Prodect -->
                   <div class="product">
                     <div class="thumb">
-                      <a href="produtos.html" class="image">
-                        <img src="assets/images/product-image/Produtosgeral/sofa3/1.jpg" alt="Product" />
-                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/sofa3/1.jpg" alt="Product" />
+                      <a href="#!" class="image">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
                       </a>
-                       
-                      <div class="actions">
-                        <a href="#!" class="action wishlist" title="Wishlist"><i class="icon-heart"></i></a>
-                        <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"><i class="icon-size-fullscreen"></i></a>
-                        <a href="#!" class="action compare" title="Compare"><i class="icon-refresh"></i></a>
-                      </div>
-                      <button title="Add To Cart" class="add-to-cart">
-                        Compre Agora
-                      </button>
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
+                        Comprar Agora!
+                      </a>
                     </div>
                     <div class="content">
                       <h5 class="title">
-                        <a href="#!">Sofa 3</a>
+                        <a href="#!">Chaises</a>
                       </h5>
                     </div>
                   </div>
+                </div>
+
+                <!-- Cadeiras e Poltronas End -->
+
+
+                <!-- Kit Completo Start -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show KitCompleto">
                   <!-- Single Prodect -->
+                  <div class="product">
+                    <div class="thumb">
+                      <a href="#!" class="image">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                      </a>
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
+                        Comprar Agora!
+                      </a>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">
+                        <a href="#!">Balancos</a>
+                      </h5>
+                    </div>
+                  </div>
                 </div>
                 
-                <!-- Jogo De Sofá End -->
+                <!-- Kit Completo End -->
+                
+                
+                <!-- Espreguicadeiras Start -->
 
-                <!-- Jogo De Sofá End -->
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show Espreguicadeiras">
+                  <!-- Single Prodect -->
+                  <div class="product">
+                    <div class="thumb">
+                      <a href="#!" class="image">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                      </a>
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
+                        Comprar Agora!
+                      </a>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">
+                        <a href="#!">Chaises</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Espreguicadeiras End -->
+
+
+                <!-- Mesas de Centro E Aparadores Start -->
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-30px box show MesasdeCentroEAparadores">
+                  <!-- Single Prodect -->
+                  <div class="product">
+                    <div class="thumb">
+                      <a href="#!" class="image">
+                        <img src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                        <img class="hover-image" src="assets/images/product-image/Produtosgeral/cadeira1/1.jpg" alt="Product" />
+                      </a>
+                      <a href="#" target="_blank" title="Add To Cart" class="add-to-cart">
+                        Comprar Agora!
+                      </a>
+                    </div>
+                    <div class="content">
+                      <h5 class="title">
+                        <a href="#!">Balancos</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Mesas de Centro E Aparadores End -->
+                
               </div>
             </div>
-            <!-- Jogo De Sofá End -->
           </div>
         </div>
       </div>
+      
       <!-- Produtos End -->
     </div>
   </div>
@@ -1415,6 +919,7 @@
   <!-- Use the minified version files listed below for better performance and remove the files listed above -->
   <script src="assets/js/vendor/vendor.min.js"></script>
   <script src="assets/js/plugins/plugins.min.js"></script>
+  <script src="filterElements.js"></script>
 
   <!-- Main Js -->
   <script src="assets/js/main.js"></script>
