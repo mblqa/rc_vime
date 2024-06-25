@@ -6481,3 +6481,7 @@ button:focus:not(:focus-visible) {
   display: flex;
   flex-direction: row;
 }
+
+.btn-endereco a {
+  color: white;
+}
