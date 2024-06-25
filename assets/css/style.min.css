@@ -6473,15 +6473,67 @@ button:focus:not(:focus-visible) {
 }
 
 .color-orcamento {
-  background-color: gray !important;
+  background-color: #2f333a;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+.color-orcamento a {
   color: white !important;
 }
 
 .botoes-header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-endereco {
+  margin-right: 50px;
 }
 
 .btn-endereco a {
   color: white;
+  font-size: 13px;
+}
+
+.btn-endereco img {
+  width: 30px;
+}
+
+@media (max-width: 600px) {
+  .color-orcamento {
+      padding: 5px;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .color-orcamento a {
+      color: white !important;
+      font-size: 15px;
+    }
+  
+    .botoes-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .btn-endereco {
+      margin-right: 50px;
+      text-align: center;
+    }
+  
+    .btn-endereco a {
+      color: white;
+      font-size: 17px;
+    }
+  
+    .btn-endereco img {
+      width: 25px;
+      padding-right: 5px;
+    }
 }
